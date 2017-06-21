@@ -10,21 +10,22 @@ footer{
 .main{
 	z-index: 50;
 	width: 100vw;
-	box-sizing: border;
 	background-color: #fcfcfc;
+	padding-top: 5em;
+	padding-bottom: 5em;
 }
 
 #particles-js{
 	z-index: -1;
 	width: 100vw;
-	height: 450px;
+	height: 29em;
 	background-color: #0c0c0c;
 }
 
 img{
 	position: absolute;
 	width: 100%;
-	height: 450px;
+	height: 30em;
 }
 
 p {
@@ -54,6 +55,7 @@ h1{
 	letter-spacing: 5px;
 	size: 32vh;
 	font-family: 'Roboto', sans-serif;
+
 }
 
 h2{
