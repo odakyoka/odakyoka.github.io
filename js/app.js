@@ -118,3 +118,10 @@ particlesJS('particles-js',
   }
  
 );
+
+window.onload = function(){
+  $(function() {
+    $("#loading").fadeOut();
+    $("#container").fadeIn();
+  });
+}
