@@ -98,7 +98,7 @@ header {
 	height: 250px;
 }
 
-.subcp {
+.odakyoka {
 	display: inline-block;
 	letter-spacing: 0.1em;
 	font-size: 1.6em;
@@ -106,6 +106,17 @@ header {
 	line-height: 0;
 	color:#1c1c1c;
 }
+
+.subcp {
+		width: 100%;
+		margin-bottom: 0;
+		display: inline-block;
+		letter-spacing: 0.1em;
+		font-size: 1.5em;
+		font-weight: regular;
+		line-height: 0;
+		color:#1c1c1c;
+	}
 
 .soIcons {
 	display: inline-block;
@@ -263,10 +274,21 @@ footer{
 		margin: 0 auto;
 	}
 
-	.subcp {
+	.odakyoka {
 		width: 100%;
 		margin-bottom: 10%;
 		text-align: center;
+	}
+
+	.subcp {
+		width: 100%;
+		margin-bottom: 0;
+		display: inline-block;
+		letter-spacing: 0.1em;
+		font-size: 1.4em;
+		font-weight: bold;
+		line-height: 0;
+		color:#1c1c1c;
 	}
 
 	.iconbox {
