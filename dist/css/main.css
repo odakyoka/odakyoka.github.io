@@ -19,7 +19,7 @@ hr {
   color: #0c0c0c;
   letter-spacing: 0.2em;
   font-size: 2em;
-  font-weight: 100;
+  font-weight: bold;
   font-family: "Lato", san-serif; }
 
 .flexbox {
@@ -86,7 +86,7 @@ header {
   display: inline-block;
   letter-spacing: 0.1em;
   font-size: 1.4em;
-  font-weight: bold;
+  font-weight: regular;
   line-height: 0;
   color: #1c1c1c; }
 
@@ -154,7 +154,8 @@ a {
   box-shadow: 0 0 10px #8c8c8c; }
 
 .productText {
-  text-align: left; }
+  text-align: left;
+  padding-top: 10px; }
 
 .light {
   display: inline-block;
