@@ -1,0 +1,246 @@
+@import url("https://fonts.googleapis.com/css?family=Dosis|Lato:300,400|Roboto:100,300");
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #fcfcfc; }
+
+section {
+  padding: 3% 5% 10%; }
+
+hr {
+  border-top: 1px solid #ff0000;
+  width: 3em;
+  margin-bottom: 5%; }
+
+.heading {
+  display: block;
+  text-align: center;
+  margin-bottom: 1em;
+  color: #0c0c0c;
+  letter-spacing: 0.2em;
+  font-size: 2em;
+  font-weight: 100;
+  font-family: "Lato", san-serif; }
+
+.flexbox {
+  display: -webkit-box;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  /* Safari */
+  flex-wrap: wrap; }
+
+.flex-center {
+  -webkit-justify-content: center;
+  /* Safari */
+  align-content: center; }
+
+#particles-js {
+  z-index: -1;
+  width: 100%;
+  box-sizing: border-box;
+  height: 29em;
+  background-color: #0C0C0C; }
+
+header {
+  width: 100%;
+  position: fixed;
+  background-color: #ff0000; }
+
+.logo {
+  float: left;
+  position: fixed;
+  padding: 1%;
+  width: 15%; }
+
+.mainImage {
+  box-sizing: border-box;
+  position: absolute;
+  width: 100%;
+  height: 30em; }
+
+.about {
+  margin: 0 8% 0; }
+
+.profile {
+  display: block;
+  font-family: 'Roboto', sans-serif;
+  width: 70%;
+  margin: 0 auto; }
+
+.iconbox {
+  float: left;
+  display: inline-block; }
+
+.odaImage {
+  width: 8em;
+  height: 8em;
+  margin-right: 4em; }
+
+.profilebox {
+  vertical-align: middle; }
+
+.pfImage {
+  height: 250px; }
+
+.subcp {
+  display: inline-block;
+  letter-spacing: 0.1em;
+  font-size: 1.4em;
+  font-weight: bold;
+  line-height: 0;
+  color: #1c1c1c; }
+
+.soIcons {
+  display: inline-block;
+  margin: 0 5% 0; }
+
+.soIcon {
+  margin: 0 6px 0; }
+
+.soI {
+  height: 18px; }
+
+.profileText {
+  font-size: 0.9em;
+  line-height: 1.7em;
+  margin: 1em 0 0; }
+
+a {
+  color: #1c1c1c;
+  font-weight: 100; }
+  a:hover {
+    color: #292929; }
+  a:visited {
+    color: #4c4c4c; }
+
+.believe {
+  position: relative; }
+
+.believebox {
+  height: 500px;
+  width: 500px;
+  margin: 0 auto;
+  padding: 10%;
+  background-image: url("../../images/circleB.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat; }
+
+.playful {
+  padding-top: 15%; }
+
+.circleB {
+  margin: 0 auto; }
+
+.believeDesign {
+  margin: 0 auto 10%;
+  text-align: center;
+  line-height: 2em; }
+
+.productBox {
+  text-align: center; }
+
+.productImages {
+  margin: 1%;
+  display: inline-block;
+  width: 350px; }
+
+.pfImage img:hover {
+  opacity: 0.4; }
+
+.boxShadowFlow {
+  box-shadow: 0 0 10px #8c8c8c; }
+
+.productText {
+  text-align: left; }
+
+.light {
+  display: inline-block;
+  padding: 2%	2% 0;
+  font-weight: 100;
+  font-size: 1.4em;
+  letter-spacing: 1.2px; }
+
+.subp {
+  display: inline;
+  margin: 0;
+  font-size: 0.8em;
+  color: #999999; }
+
+.prop {
+  margin: 0;
+  padding: 0 5px 30px;
+  font-size: 0.9em; }
+
+.tantou {
+  display: block;
+  padding-top: 10px;
+  font-size: 0.9em;
+  color: #c3c3c3; }
+
+footer {
+  position: relative;
+  padding-top: 2em;
+  text-align: center; }
+
+.footerText {
+  position: absolute;
+  color: #fff;
+  font-size: 0.8em;
+  letter-spacing: 0.1em;
+  bottom: 3px;
+  text-align: center;
+  width: 100%; }
+
+@media (max-width: 416px) {
+  #particles-js {
+    z-index: -1;
+    box-sizing: border-box;
+    height: 10em;
+    background-color: #0C0C0C; }
+  .mainImage {
+    height: 11em; }
+  .heading {
+    font-size: 1.6em; }
+  .profilebox {
+    margin: 0 auto; }
+  .odaImage {
+    margin: 20% auto 10%;
+    float: center; }
+  .profileText {
+    margin: 10% auto;
+    font-size: 0.8em; }
+  .believeDesign {
+    position: relative;
+    width: 100%;
+    margin: 10% auto;
+    text-align: center;
+    font-size: 1em; }
+  section {
+    padding: 0; }
+  .believebox {
+    position: relative;
+    padding: 0;
+    margin-bottom: 15%;
+    text-align: center;
+    line-height: 2em;
+    width: 350px;
+    overflow: hidden;
+    background-image: none; }
+  .soInons {
+    display: block; } }
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+  .ghoast {
+    position: absolute;
+    width: 250px;
+    margin: 17% 0;
+    left: 13%; } }
+
+@media (max-width: 1199px) {
+  .ghoast {
+    display: none; } }
+
+@media (min-width: 1401px) {
+  .ghoast {
+    display: none; } }

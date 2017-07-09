@@ -1,0 +1,27 @@
+{
+  "name": "odakyoka.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/odakyoka/odakyoka.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/odakyoka/odakyoka.github.io/issues"
+  },
+  "homepage": "https://github.com/odakyoka/odakyoka.github.io#readme",
+  "devDependencies": {
+    "gulp-sass": "^3.1.0"
+  },
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-plumber": "^1.1.0"
+  }
+}
