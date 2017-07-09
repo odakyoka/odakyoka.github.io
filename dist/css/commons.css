@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css?family=Dosis|Lato:300,400|Roboto:100,300");
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #fcfcfc;
+  font-family: "Lato", san-serif; }
+
+section {
+  padding: 3% 5% 10%; }
+
+hr {
+  border-top: 2px solid #ff0000;
+  width: 3em;
+  margin-bottom: 5%; }
+
+.heading {
+  display: block;
+  text-align: center;
+  margin-bottom: 1em;
+  color: #0c0c0c;
+  letter-spacing: 0.2em;
+  font-size: 2em;
+  font-weight: bold;
+  font-family: "Lato", san-serif; }
+
+.logo {
+  float: left;
+  position: fixed;
+  padding: 1%;
+  width: 15%; }
+
+.flexbox {
+  display: -webkit-box;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  /* Safari */
+  flex-wrap: wrap; }
+
+.flex-center {
+  -webkit-justify-content: center;
+  /* Safari */
+  align-content: center; }

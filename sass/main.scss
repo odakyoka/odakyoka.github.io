@@ -1,49 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Dosis|Lato:300,400|Roboto:100,300');
 $base-bgc: #fcfcfc;
+$line: #ff0000;
+$base-font: #1c1c1c;
 
-// 全体共通
-html,body {
-	margin:0;
-	padding:0;
-	background-color: $base-bgc;
-	font-family: "Lato", san-serif;
-}
-
-section {
-	padding: 3% 5% 10%;
-}
-
-hr {
-    border-top: 1px solid #ff0000;
-    width: 3em;
-    margin-bottom: 5%;
-}
-
-.heading {
-	display: block;
-	text-align: center;
-	margin-bottom: 1em;
-	color: #0c0c0c;
-	letter-spacing: 0.2em;
-	font-size: 2em;
-	font-weight: bold;
-	font-family: "Lato", san-serif;
-}
-
-.flexbox {
-    display: -webkit-box;
-    display: flex;
-    -webkit-flex-wrap: wrap; /* Safari */
-    flex-wrap: wrap;
-}
-
-.flex-center {
-    -webkit-justify-content: center; /* Safari */
-    align-content: center;
-}
-
-// main
-
+//main
 #particles-js{
 	z-index: -1;
 	width: 100%;
@@ -57,12 +17,7 @@ header {
 	position: fixed;
 	background-color: #ff0000;
 }
-.logo {
-	float: left;
-	position: fixed;
-	padding: 1%;
-	width: 15%;
-}
+
 .mainImage {
 	box-sizing: border-box;
 	position: absolute;
@@ -105,7 +60,7 @@ header {
 	font-size: 1.6em;
 	font-weight: bold;
 	line-height: 0;
-	color:#1c1c1c;
+	color: $base-font;
 }
 
 .subcp {
@@ -116,7 +71,7 @@ header {
 		font-size: 1.5em;
 		font-weight: regular;
 		line-height: 0;
-		color:#1c1c1c;
+		color:$base-font;
 	}
 
 .soIcons {
@@ -140,7 +95,7 @@ header {
 }
 
 a {
-    color: #1c1c1c;
+    color: $base-font;
     font-weight: 100;
     &:hover {
     	color: #292929;
@@ -289,7 +244,7 @@ footer{
 		font-size: 1.4em;
 		font-weight: bold;
 		line-height: 0;
-		color:#1c1c1c;
+		color:$base-font;
 	}
 
 	.iconbox {
@@ -342,12 +297,16 @@ footer{
 		position: absolute;
 		width: 250px;
 		margin:17% 0;
-		left: 14%;
+		left: 13%;
 	}
 }
 @media (max-width: 1199px) {
 	.ghoast {
 		display: none;
+	}
+
+	.believebox {
+	background-image:none;
 	}
 }
 
