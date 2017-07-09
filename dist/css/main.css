@@ -2,7 +2,8 @@
 html, body {
   margin: 0;
   padding: 0;
-  background-color: #fcfcfc; }
+  background-color: #fcfcfc;
+  font-family: "Lato", san-serif; }
 
 section {
   padding: 3% 5% 10%; }
