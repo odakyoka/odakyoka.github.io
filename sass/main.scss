@@ -110,6 +110,7 @@ header {
 .soIcons {
 	display: inline-block;
 	margin: 0 5% 0;
+	text-align: center;
 }
 .soIcon {
 	margin: 0 6px 0;
@@ -244,6 +245,10 @@ footer{
 	background-color: #0C0C0C;
 	}
 
+	.logo {
+		width: 40%;
+	}
+
 	.mainImage {
 		height: 11em;
 	}
@@ -255,9 +260,23 @@ footer{
 	.profilebox {
 		margin: 0 auto;
 	}
+
+	.subcp {
+		width: 100%;
+		text-align: center;
+	}
+
+	.iconbox {
+		width: 100%;
+		text-align: center;
+	}
 	.odaImage {
 		margin: 20% auto 10%;
-		float: center;
+		text-align: center;
+	}
+
+	.soIcons {
+		display: block;
 	}
 
 	.profileText {
@@ -284,10 +303,6 @@ footer{
 		width: 350px;
 		overflow: hidden;
 		background-image: none;
-	}
-
-	.soInons {
-		display: block;
 	}
 }
 
