@@ -213,6 +213,8 @@ footer {
   .profileText {
     margin: 10% auto;
     font-size: 0.8em; }
+  .pfImage {
+    height: 100%; }
   .believeDesign {
     position: relative;
     width: 100%;
