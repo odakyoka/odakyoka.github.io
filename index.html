@@ -22,19 +22,18 @@
   <link href="https://fonts.googleapis.com/css?family=Dosis|Lato:300,400|Roboto:100,300" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
   <script>
-    $(function() {
-      
-    $('#ghoastsp').hide();
-      $(window).scroll(function () {
-        if($(window).scrollTop() > 50) {
-          $('#ghoastsp').fadeIn(300);
-        } else {
-          $('#ghoastsp').fadeOut(300);
-        }
+    $(function() {  
+      $('#ghoastsp').hide();
+        $(window).scroll(function () {
+          if($(window).scrollTop() > 50) {
+            $('#ghoastsp').fadeIn(300);
+          } else {
+            $('#ghoastsp').fadeOut(300);
+          }
       });
       $('#ghoastsp').click(function () {
-        $("html,body").animate({scrollTop:0},"300");
-      });  
+          $("html,body").animate({scrollTop:0},"300");
+      });
     });
   </script>
 </head>
