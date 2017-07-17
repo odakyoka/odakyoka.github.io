@@ -48,6 +48,8 @@ header {
 }
 
 .profilebox {
+	clear:both;
+	display: inline;	
 	vertical-align: middle;
 }
 .pfImage {
@@ -140,6 +142,7 @@ a {
 // Products
 
 .productBox {
+	clear:both;
 	text-align: center;
 	padding-top: 25px;
 }
@@ -193,6 +196,7 @@ footer{
 	position: relative;
 	padding-top: 2em;
 	text-align: center;
+	clear: both;
 }
 
 .footerText{
@@ -206,12 +210,21 @@ footer{
 }
 
 // スマホビュー
-@media (max-width: 416px) {
+@media (max-width: 800px) {
 	#particles-js{
 	z-index: -1;
 	box-sizing: border-box;
 	height: 10em;
 	background-color: #0C0C0C;
+	}
+
+	#ghoastsp {
+		position:fixed;
+    bottom: 30px;
+    cursor:pointer;
+    width: 20%;
+    right: 20px;
+    z-index: 1;
 	}
 
 	.logo {
@@ -270,7 +283,7 @@ footer{
 		width: 100%;
 		margin: 10% auto;
 		text-align: center;
-		font-size: 1em;
+		font-size: 0.8em;
 	}
 	section {
 		padding: 0;
@@ -278,16 +291,16 @@ footer{
 	.believebox {
 		position: relative;
 		padding: 0;
-		margin-bottom: 15%;
 		text-align: center;
 		line-height: 2em;
-		width: 350px;
+		width: 100%;
 		overflow: hidden;
 		background-image: none;
 	}
 
 	.productImages {
 		margin: 2% 1% 5%;
+		width: 100%;
 	}
 }
 
@@ -299,15 +312,20 @@ footer{
 		margin:17% 0;
 		left: 13%;
 	}
+
+	#ghoastsp {
+		display: none;
+	}
+
+	.about {
+		width: 80%;
+	}
 }
 @media (max-width: 1199px) {
 	.ghoast {
 		display: none;
 	}
 
-	.believebox {
-	background-image:none;
-	}
 }
 
 @media (min-width: 1401px) {

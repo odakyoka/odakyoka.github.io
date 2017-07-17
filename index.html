@@ -20,6 +20,14 @@
   <link rel="stylesheet" type="text/css" href="dist/css/main.css">
   <link rel="stylesheet" type="text/css" href="dist/css/commons.css">
   <link href="https://fonts.googleapis.com/css?family=Dosis|Lato:300,400|Roboto:100,300" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script>
+    $(function() {
+      $('#ghoastsp').click(function () {
+        $("html,body").animate({scrollTop:0},"300");
+      });  
+    });
+  </script>
 </head>
 <body>
   <a class="header" href=" ">
@@ -32,6 +40,7 @@
     <script src="js/particles.min.js"></script>
     <script src="js/app.js"></script>
   </div>
+  <img src="images/ghoastsp.png" alt="" id="ghoastsp">
   <section class="about">
     <h2 class="heading">about</h2>
       <hr>
@@ -52,7 +61,7 @@
   </section>
   <section class="believe">
     <img src="images/ghoast.png" alt="" class="ghoast">
-      <div class="believebox top-wapper">
+      <div class="believebox">
         <h2 class="heading playful">I believe "Playful"</h2>
         <hr>
         <p class="believeDesign">
@@ -75,9 +84,9 @@
       <div class="productBox">
         <div class="productImages">
 <!--           <a href="./aszooApp.html"> -->
-            <div class="boxShadowFlow pfImage">
-              <img src="images/aszooApp.png" alt="aszooApp" style="width:100%;">
-            </div>
+          <div class="boxShadowFlow pfImage">
+            <img src="images/aszooApp.png" alt="aszooApp" style="width:100%;">
+          </div>
 <!--           </a>  --> 
           <div class="productText">
             <p class="subcp">aszoo
@@ -132,10 +141,8 @@
       </div>
   </section>
   <footer class="footer">
-    <div class="footerBox">
       <p class="footerText">CopyRight 2017 odakyoka All Right Reserved. </p>
       <img class="footerImage" src="images/footerImage.png" alt="footer" style="width:100%;">
-    </div>
   </footer>
 </body>
 </html>
