@@ -253,12 +253,8 @@ footer {
 
 @media (max-width: 1199px) {
   .ghoast {
-    display: none; }
-  #ghoastsp {
     display: none; } }
 
 @media (min-width: 1401px) {
   .ghoast {
-    display: none; }
-  #ghoastsp {
     display: none; } }
