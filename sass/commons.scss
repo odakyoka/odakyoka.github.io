@@ -32,7 +32,7 @@ hr {
 	font-family: "Lato", san-serif;
 }
 
-.logo {
+.Logo {
 	float: left;
 	position: fixed;
 	padding: 1%;
@@ -51,3 +51,9 @@ hr {
     align-content: center;
 }
 
+  @media (max-width: 800px) {
+    .Logo {
+      padding: 3%;
+      width: 40%;
+    }
+  }

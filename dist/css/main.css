@@ -194,8 +194,9 @@ footer {
     width: 20%;
     right: 20px;
     z-index: 1; }
-  .logo {
-    width: 40%; }
+  .Logo {
+    padding: 3%;
+    width: 100%; }
   .mainImage {
     height: 11em; }
   .heading {

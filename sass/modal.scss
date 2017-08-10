@@ -59,3 +59,12 @@
 .hoikuUI {
 	float: left;
 }
+
+
+// スマホビュー
+@media (max-width: 800px) {
+	#modal {
+	width: 100%;
+	left:0;
+	}
+}
