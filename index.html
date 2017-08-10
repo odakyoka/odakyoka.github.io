@@ -19,6 +19,7 @@
   <title>Odafolio</title>
   <link rel="stylesheet" type="text/css" href="dist/css/main.css">
   <link rel="stylesheet" type="text/css" href="dist/css/commons.css">
+  <link rel="stylesheet" type="text/css" href="dist/css/modal.css">
   <link href="https://fonts.googleapis.com/css?family=Dosis|Lato:300,400|Roboto:100,300" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
   <script>
@@ -36,6 +37,9 @@
       });
     });
   </script>
+  <script src="js/modal.js"></script>
+  <script src="js/particles.min.js"></script>
+  <script src="js/app.js"></script>
 </head>
 <body>
   <a class="header" href=" ">
@@ -45,7 +49,6 @@
   </a>
   <img class="mainImage" src="images/wave.png">
   <div id="particles-js">
-    <script src="js/particles.min.js"></script>
     <script src="js/app.js"></script>
   </div>
   <img src="images/ghoastsp.png" alt="" id="ghoastsp">
@@ -75,11 +78,11 @@
         <p class="believeDesign">
           「じわる＆愛着がわく」ものを生み出したい。
           <br>
+          何事も楽しく、新しいものに貪欲でいたい。
+          <br>
           人とのインターフェイスを大切にしたい。
           <br>
-          人生を楽しくデザインしたい。
-          <br>
-          計画的創作がしたい。
+          気楽で馴染むデザインをしたい。
           <br>
           <br>
           そんな人間です。
@@ -89,13 +92,24 @@
   <section class="Portfolio">
     <h2 class="heading">Products</h2>
       <hr>
+      <!-- ここからモーダル -->
+      <div id="overlay">
+      </div>
+      <div id="modal" class="moAszoo">
+        <div class="modalHeader">
+          <div class="modalClose">
+            <img id="closeIcon" src="images/closeIcon.png" alt="">
+          </div>
+        </div>
+        <img src="images/ModalaszooApp.png" alt="" class="modalimg">
+      </div>
+    <!-- ここまでモーダル -->
       <div class="productBox">
         <div class="productImages">
-<!--           <a href="./aszooApp.html"> -->
-          <div class="boxShadowFlow pfImage">
+          <div class="boxShadowFlow pfImage firstModal">
             <img src="images/aszooApp.png" alt="aszooApp" style="width:100%;">
           </div>
-<!--           </a>  --> 
+
           <div class="productText">
             <p class="subcp">aszoo
             </p>
@@ -110,12 +124,13 @@
             </p>
           </div>
         </div>
+
         <div class="productImages">
-<!--           <a href=""> -->
+          <a href="http://aszoo.com">
             <div class="boxShadowFlow pfImage">
               <img src="images/aszooLPmini.png" alt="" style="width:100%;">
             </div>
-<!--           </a> -->
+          </a>
           <div class="productText">
             <p class="subcp">aszoo
             </p>
@@ -130,10 +145,20 @@
             </p>
           </div>
         </div>
-        <div class="productImages">
-            <div class="boxShadowFlow pfImage">
-              <img src="images/hoikumini.png" alt="hoikuImage" style="width:100%;">
+        <!-- ここからモーダル -->
+        <div id="modal" class="moHoiku">
+          <div class="modalHeader">
+            <div class="modalClose">
+              <img id="closeIcon" src="images/closeIcon.png" alt="">
             </div>
+          </div>
+          <img src="images/hoikuen.png" alt="" class="modalimg">
+        </div>
+      <!-- ここまでモーダル -->
+        <div class="productImages">
+          <div class="boxShadowFlow pfImage secondModal">
+            <img src="images/hoikumini.png" alt="hoikuImage" style="width:100%;">
+          </div>
           <div class="productText">
             <p class="subcp">Kid's one</p>
             <p class="subp">attendance management system</p>

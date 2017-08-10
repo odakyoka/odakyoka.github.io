@@ -1,0 +1,53 @@
+@charset "UTF-8";
+.container a {
+  display: block;
+  text-align: center;
+  margin-bottom: 20px; }
+
+#overlay {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10; }
+
+#modal {
+  width: 70%;
+  background-color: #1c1c1c;
+  box-shadow: 0 0 10px #000;
+  border-radius: 10px;
+  overflow: hidden;
+  position: fixed;
+  top: 50px;
+  margin: 0 auto;
+  z-index: 11; }
+
+.modalimg {
+  position: relative;
+  width: 98%;
+  margin: 2% 1% 4%;
+  text-align: center; }
+
+.modalHeader {
+  width: 100%;
+  height: 40px; }
+
+/*閉じるボタン*/
+.modalClose {
+  background-color: #c3c3c3;
+  float: right;
+  box-sizing: border-box;
+  padding: 2%;
+  border-radius: 2px 7px 2px 2px; }
+
+.modalClose:hover {
+  background-color: #c1c1c1; }
+
+.modalClose img {
+  width: 20px;
+  height: 100%; }
+
+.hoikuUI {
+  float: left; }
