@@ -74,8 +74,7 @@ header {
 
 .subcp {
 		width: 100%;
-		margin-bottom: 0;
-		display: inline-block;
+		display: block;
 		letter-spacing: 0.1em;
 		font-size: 1.5em;
 		font-weight: regular;
@@ -170,6 +169,15 @@ a {
 .productText {
 	text-align: left;
 	padding-top: 10px;
+
+	.subcp {
+	letter-spacing: 0.1em;
+	font-size: 1.4em;
+	font-weight: bold;
+	line-height: 0;
+	color:$base-font;
+	}
+
 }
 .light {
 	display: inline-block;
@@ -181,7 +189,8 @@ a {
 .subp {
 	display: inline;
 	margin: 0;
-	font-size: 0.8em;
+	font-size: 1.2em;
+	font-weight: regular;
 	color: #999999;
 }
 
@@ -193,9 +202,9 @@ a {
 
 .tantou {
 	display: block;
-	padding-top: 10px;
-	font-size: 0.9em;
-	color: #c3c3c3;
+	padding-top: 5px;
+	font-size: 1em;
+	color: #888888;
 }
 
 // footer
@@ -258,7 +267,7 @@ footer{
 
 	.subcp {
 		width: 100%;
-		margin-bottom: 0;
+		margin-bottom: 20px;
 		display: inline-block;
 		letter-spacing: 0.1em;
 		font-size: 1.4em;
