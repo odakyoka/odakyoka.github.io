@@ -23,6 +23,8 @@
 	overflow: hidden;
 	position: fixed;
 	top: 50px;
+	left: 50%;
+	transform: translate(-50%);
 	margin: 0 auto;
 	z-index: 11;
 }
@@ -65,6 +67,5 @@
 @media (max-width: 800px) {
 	#modal {
 	width: 100%;
-	left:0;
 	}
 }
