@@ -4,7 +4,7 @@ $(function(){
   $('.firstModal').on('click', function(event){
     event.preventDefault();
     $('#overlay, .moAszoo')
-        .hide('.moHoiku')
+        .hide('.moHoiku, .moRecoa')
     .fadeIn()
     .find('.moAszoo')
     .fadeIn();
@@ -21,21 +21,38 @@ $(function(){
 $(function(){
   $('.secondModal').on('click', function(event){
     event.preventDefault();
-    $('#overlay, #modal')
-    .hide('.moAszoo')
+    $('#overlay, .moHoiku')
+    .hide('.moAszoo, .moRecoa')
     .fadeIn()
     .find('.moHoiku')
     .fadeIn();
   });
   $(".modalClose, #overlay").on('click', function(event){
     event.preventDefault();
-    $('#overlay, .moHoiku')
+    $('#overlay, #modal')
     .fadeOut()
-    .find('#modal')
+    .find('.moHoiku')
     .fadeOut()
   });
 });
 
+$(function(){
+  $('.thirdModal').on('click', function(event){
+    event.preventDefault();
+    $('#overlay, #modal')
+    .hide('.moAszoo, .moHoiku')
+    .fadeIn()
+    .find('.moRecoa')
+    .fadeIn();
+  });
+  $(".modalClose, #overlay").on('click', function(event){
+    event.preventDefault();
+    $('#overlay, #modal')
+    .fadeOut()
+    .find('.moRecoa')
+    .fadeOut()
+  });
+});
 
 // $(function(){
 //   $('.firstModal').on('click', function(event){
