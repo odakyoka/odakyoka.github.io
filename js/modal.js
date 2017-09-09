@@ -1,28 +1,28 @@
 
 
-$(function(){
-  $('.firstModal').on('click', function(event){
-    event.preventDefault();
-    $('#overlay, .moAszoo')
-        .hide('.moHoiku, .moRecoa')
-    .fadeIn()
-    .find('.moAszoo')
-    .fadeIn();
-  });
-  $(".modalClose, #overlay").on('click', function(event){
-    event.preventDefault();
-    $('#overlay, #modal')
-    .fadeOut()
-    .find('.moAszoo')
-    .fadeOut()
-  });
-});
+// $(function(){
+//   $('.firstModal').on('click', function(event){
+//     event.preventDefault();
+//     $('#overlay, .moAszoo')
+//         .hide('.moHoiku, .moRecoa')
+//     .fadeIn()
+//     .find('.moAszoo')
+//     .fadeIn();
+//   });
+//   $(".modalClose, #overlay").on('click', function(event){
+//     event.preventDefault();
+//     $('#overlay, #modal')
+//     .fadeOut()
+//     .find('.moAszoo')
+//     .fadeOut()
+//   });
+// });
 
 $(function(){
   $('.secondModal').on('click', function(event){
     event.preventDefault();
     $('#overlay, .moHoiku')
-    .hide('.moAszoo, .moRecoa')
+    .hide('.moRecoa')
     .fadeIn()
     .find('.moHoiku')
     .fadeIn();
@@ -40,7 +40,7 @@ $(function(){
   $('.thirdModal').on('click', function(event){
     event.preventDefault();
     $('#overlay, #modal')
-    .hide('.moAszoo, .moHoiku')
+    .hide('.moHoiku')
     .fadeIn()
     .find('.moRecoa')
     .fadeIn();
