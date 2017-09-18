@@ -40,7 +40,8 @@ header {
 .odaImage {
   width: 8em;
   height: 8em;
-  margin-right: 4em; }
+  margin-right: 4em;
+  margin-top: 15px; }
 
 .profilebox {
   clear: both;
